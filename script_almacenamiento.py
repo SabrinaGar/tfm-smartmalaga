@@ -49,7 +49,4 @@ def guardar_en_postgresql(datos):
     except Exception as e:
         print(f"Error en la base de datos: {e}")
 
-# Ejecutar el proceso de extracción y almacenamiento
-datos = obtener_datos()
-if datos:
-    guardar_en_postgresql(datos)
+
